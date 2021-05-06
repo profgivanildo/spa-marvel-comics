@@ -1,0 +1,58 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
+body{
+    color: lavender;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Antonio', sans-serif;
+    background: rgb(0,2,8);
+background: linear-gradient(180deg, rgba(0,2,8,1) 25%, rgba(11,12,78,1) 45%, rgba(71,14,62,1) 50%, rgba(143,17,43,1) 55%, rgba(15,2,4,1) 75%);
+}
+
+header {
+	position:relative;
+	left:0;
+	top:0;
+	width:100%;
+	min-height:180px;
+	padding:50px 0;
+	color:#fff;
+	background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.2)), url(https://www.einerd.com.br/wp-content/uploads/2019/06/universo-cinematogr%C3%A1fico-marvel-e1559852032255.jpg);
+    background-position: center center;
+    background-repeat: repeat-x;
+	margin-bottom:30px;
+    text-align:center;
+}
+
+/* Title */
+header h1 {
+    font-weight: bold;
+    font-size:35px;
+    color:#eee;	
+	letter-spacing:2px;
+	text-transform:uppercase;
+	margin:0 !important;
+	padding-bottom:25px;
+}
+
+
+.footer-dark {
+	padding:50px 0;
+	color:#f0f9ff;
+	background-color:#000208;
+  }
+  
+  .footer-dark p {
+	font-size:14px !important;
+  }
+  
+  .footer-dark .item.text {
+	margin-bottom:36px;
+  }
+  
+  .footer-dark .copyright {
+	text-align:center;
+	padding-top:2px;
+	opacity:0.3;
+	margin-bottom:0;
+  }

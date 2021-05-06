@@ -1,0 +1,83 @@
+.App{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+h3 {
+    margin-left: 1rem;
+}
+
+.center form{
+    max-width: 350px;
+}
+
+.center input{
+    color: rgb(2, 2, 17);
+    max-width: 300px;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+.div-button{
+    width: 100%;
+    height: 80px;
+}
+
+.modal-enviar Button{
+    color: rgb(250, 240, 240);
+    background-color: rgb(19, 1, 68);
+    margin: 20px;
+    border: none;
+    max-width: 250px;
+    min-width: 220px;
+    float: right;
+    bottom: 0;
+}
+
+.img-details-modal{
+    display: inline;
+    float: left;
+    margin: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.checkBoxComic {
+    width: 20px;
+    background-color: #FFF;
+}
+
+.modal-enviar Button:hover{
+    background-color: rgb(250, 240, 240);
+    color: rgb(19, 12, 1);
+    border: none;
+}
+
+.img-details-modal{
+    max-width: 150px;
+}
+
+.search {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 400px;
+    z-index: 5999;
+}
+.search input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.listaPop {
+    z-index: 9999;
+    color: black;
+}
