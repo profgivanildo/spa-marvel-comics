@@ -117,7 +117,7 @@ export default function App(props) {
     }
     
 
-    const {} = useLoadScript({
+    const {isLoad} = useLoadScript({
         googleMapsApiKey: "AIzaSyDn7jDSZDCfpU5TDSUOap5txxRJqw4ANh8",
         libraries,
     });
@@ -362,7 +362,7 @@ export default function App(props) {
                                     return (
                                         <div key={comic.id} style={{margin: '20px'}}>
                                             <h4 style={{float: 'left'}}>#{comic.id}</h4>
-                                            <img width="60px" src={`${comic.image}`}  style={{margin: '10px'}}/>
+                                            <img alt={`${comic.title}`} width="60px" src={`${comic.image}`}  style={{margin: '10px'}}/>
                                         </div>
                                     )
                             })
