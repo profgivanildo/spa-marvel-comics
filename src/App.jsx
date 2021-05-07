@@ -117,7 +117,7 @@ export default function App(props) {
     }
     
 
-    const {isLoad} = useLoadScript({
+    useLoadScript({
         googleMapsApiKey: "AIzaSyDn7jDSZDCfpU5TDSUOap5txxRJqw4ANh8",
         libraries,
     });
@@ -238,8 +238,6 @@ export default function App(props) {
             })
             .catch(e => { console.log(e) })
     }, [])
-
-    
 
     return (
         <div className="row">
